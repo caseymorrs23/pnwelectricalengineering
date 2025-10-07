@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Get a Free Quote — PNW EE</title>
+<title>Contact | Get a Quote | PNW Electrical Engineering</title>
 <link rel="stylesheet" href="assets/css/styles.css">
 
 <!-- Google Tag Manager -->
@@ -11,6 +11,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5DQRPTPG');</script>
 <!-- End Google Tag Manager -->
 
+<meta name="description" content="Request a quote for PE-stamped plans, EV charging studies, transformer reviews, and solar interconnection.">
+<link rel="canonical" href="https://caseymorrs23.github.io/pnwelectricalengineering/contact.html">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["LocalBusiness", "ProfessionalService"], "name": "PNW Electrical Engineering, PLLC", "description": "Washington PE electrical engineering for commercial & light industrial. EV charging load calcs, transformer adequacy, solar + storage, and PE-stamped submittals.", "telephone": "+1-443-742-7054", "email": "Casey-Morris@live.com", "url": "https://caseymorrs23.github.io/pnwelectricalengineering/", "image": "https://caseymorrs23.github.io/pnwelectricalengineering/assets/logo.png", "address": {"@type": "PostalAddress", "streetAddress": "10102 199th Ave E", "addressLocality": "Bonney Lake", "addressRegion": "WA", "postalCode": "98391", "addressCountry": "US"}, "areaServed": {"@type": "AdministrativeArea", "name": "Washington"}, "founder": "Casey Morris, P.E.", "knowsAbout": ["EV charging engineering", "transformer adequacy", "solar interconnection", "one-line diagrams", "load calculations"], "identifier": [{"@type": "PropertyValue", "name": "WA PE License", "value": "55998"}], "sameAs": ["https://g.page/r/CeMPL1WLtVF0EBM/review"]}</script>
 </head><body>
 
 <!-- Google Tag Manager (noscript) -->
@@ -43,7 +46,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <main class="container">
   <h1 id="quote">Get a Free Quote</h1>
   <p class="small">Tell us about your project.</p>
-  <form action="https://formsubmit.co/casey-morris@live.com" method="POST">
+  <form id="quote-form" action="https://formsubmit.co/Casey-Morris@live.com" method="POST">
     <input type="hidden" name="_next" value="https://pnwengineer.com/thanks.html">
     <div class="row">
       <div><label>Name</label><input name="name" required><div class="form-help">So we know who to contact.</div></div>
@@ -53,7 +56,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <label>Project</label><textarea name="project" placeholder="Include site address/utility if known."></textarea>
     <div class="submit-row"><button class="btn btn-accent" type="submit">Request Quote</button></div>
-  </form>
+  <input type="hidden" name="_subject" value="New Quote Request — PNW EE">
+<input type="hidden" name="_captcha" value="false">
+</form>
 </main>
 
 <footer class="footer"><div class="container" style="font-size:.95rem">
@@ -65,4 +70,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="about-contact.html">About & Contact</a>
   </div>
 </div></footer>
+
+<!-- Sticky Mobile CTA -->
+<style>
+@media (max-width: 768px){
+  .sticky-cta{position:fixed;bottom:0;left:0;right:0;z-index:9999;padding:12px 16px;background:#0f172a;color:#fff;display:flex;gap:12px;align-items:center;justify-content:space-between;box-shadow:0 -6px 20px rgba(0,0,0,.25);}
+  .sticky-cta a{display:inline-block;padding:12px 18px;background:#16a34a;color:#fff;text-decoration:none;border-radius:9999px;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,.18);}
+}
+</style>
+<div class="sticky-cta">
+  <span>Need a stamped submittal?</span>
+  <a href="contact.html#quote-form">Get a Quote</a>
+</div>
+
 </body></html>
