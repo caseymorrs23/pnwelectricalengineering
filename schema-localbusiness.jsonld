@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "PNW Electrical Engineering, PLLC",
+  "url": "https://pnwengineer.com/",
+  "telephone": "+1-443-742-7054",
+  "email": "casey-morris@live.com",
+  "image": "https://pnwengineer.com/images/logo-stamp.png",
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Washington"
+    }
+  ],
+  "priceRange": "$$",
+  "knowsAbout": [
+    "EV charging engineering",
+    "Transformer adequacy",
+    "Solar interconnection",
+    "Electrical load calculations",
+    "PE stamping"
+  ],
+  "founder": "Casey Morris, P.E.",
+  "identifier": "WA PE #55998"
+}
