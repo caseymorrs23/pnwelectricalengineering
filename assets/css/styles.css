@@ -10,24 +10,6 @@ h1{font-size:1.9rem} h2{font-size:1.4rem} h3{font-size:1.05rem}
 .container{max-width:1160px;margin:0 auto;padding:0 16px}
 
 /* Header / Nav */
-
-/* Logo sizing */
-.header .brand picture {
-  display:block;
-  flex-shrink:0;
-}
-.header .brand img {
-  display:block;
-  max-height:40px;
-  height:auto;
-  width:auto;
-}
-@media (max-width: 640px) {
-  .header .brand img {
-    max-height:32px;
-  }
-}
-
 .header{background:#394066;color:#fff}
 .header .header-inner{max-width:1160px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;height:56px}
 .brand{display:flex;gap:10px;align-items:center;font-weight:700}
