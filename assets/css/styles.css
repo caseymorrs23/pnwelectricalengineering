@@ -63,6 +63,28 @@ textarea{min-height:120px;resize:vertical}
 .form-help{font-size:.9rem;color:#6a7389;margin-top:.2rem}
 .submit-row{margin-top:.8rem}
 
+/* Interactive service area map for WA & OR */
+.service-map-card{margin-top:1.5rem;margin-bottom:1.5rem;border-radius:12px;overflow:hidden;border:1px solid rgba(0,0,0,.08);box-shadow:0 8px 24px rgba(0,0,0,.06);}
+.service-map-wrapper{background:linear-gradient(135deg,#0f172a,#1e293b);padding:18px;}
+.service-map-title{color:#e5e7eb;font-weight:600;margin-bottom:10px;font-size:.95rem;display:flex;align-items:center;justify-content:space-between;}
+.service-map-title span{font-size:.8rem;color:#9ca3af;}
+.service-map{width:100%;max-width:720px;margin:0 auto;display:block;}
+.service-map text{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}
+.service-map .state{cursor:pointer;transition:transform .18s ease,filter .18s ease;}
+.service-map .state:hover{transform:translateY(-4px);filter:brightness(1.1);}
+.service-map .state-label{pointer-events:none;font-weight:600;font-size:.8rem;fill:#e5e7eb;}
+.service-map .state-outline{stroke:#0f172a;stroke-width:1.5;fill:#1d4ed8;opacity:.95;}
+.service-map .state-outline.or{fill:#22c55e;}
+.service-map-legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;font-size:.8rem;color:#e5e7eb;}
+.service-map-pill{display:inline-flex;align-items:center;gap:6px;padding:4px 9px;border-radius:999px;background:rgba(15,23,42,.8);}
+.service-map-pill span{width:9px;height:9px;border-radius:999px;display:inline-block;}
+.service-map-pill .wa-dot{background:#1d4ed8;}
+.service-map-pill .or-dot{background:#22c55e;}
+
+@media (max-width:640px){
+  .service-map-wrapper{padding:14px;}
+}
+
 /* FIXED: Unified logo sizing */
 header .brand img,
 header .logo img {
