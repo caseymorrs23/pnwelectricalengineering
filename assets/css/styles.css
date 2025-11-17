@@ -62,3 +62,19 @@ input,textarea{width:100%;padding:.6rem .7rem;border:1px solid #cfd6ea;border-ra
 textarea{min-height:120px;resize:vertical}
 .form-help{font-size:.9rem;color:#6a7389;margin-top:.2rem}
 .submit-row{margin-top:.8rem}
+
+/* FIXED: Unified logo sizing */
+header .brand img,
+header .logo img {
+  max-height: 42px;
+  height: auto;
+  width: auto;
+}
+
+@media (max-width: 640px) {
+  header .brand img,
+  header .logo img {
+    max-height: 34px;
+  }
+}
+
