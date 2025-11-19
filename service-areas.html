@@ -29,13 +29,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <source type="image/webp" srcset="images/logo-stamp-w480.webp 480w, images/logo-stamp-w800.webp 800w, images/logo-stamp-w1024.webp 1024w" sizes="(max-width: 768px) 100vw, 800px">
   <img src="images/logo-stamp.png" alt="PNW Electrical Engineering PLLC logo" class="brand-logo" width="1024" height="1024" loading="lazy" decoding="async">
 </picture>
-      <strong>PNW Electrical Engineering, PLLC</strong><span> PE #55998</span>
+      <strong>PNW Electrical Engineering, PLLC</strong><span> PE #55998 • OR PE #108239PE</span>
     </div>
-<button class="nav-toggle" type="button" aria-label="Toggle navigation">
-  <span></span>
-  <span></span>
-  <span></span>
-</button>
     <nav class="nav">
       <a href="index.html" class="">Home</a>
       <a href="services.html" class="">Services</a>
@@ -52,45 +47,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <main class="container">
-  <h1>Service Areas (Washington)</h1>
-  <p>We cover all of Washington State, focusing on commercial & light industrial projects.</p>
-  <p><span class="badge">Seattle</span><span class="badge">Spokane</span><span class="badge">Tri-Cities</span><span class="badge">Tacoma</span><span class="badge">Bellevue</span><span class="badge">Everett</span><span class="badge">Bellingham</span><span class="badge">Yakima</span><span class="badge">Pullman</span><span class="badge">WSU</span><span class="badge">Kennewick</span><span class="badge">Richland</span><span class="badge">Pasco</span><span class="badge">Olympia</span><span class="badge">Vancouver</span></p>
-  <section class="section">
-    <h2>Interactive Service Area Map</h2>
-    <p class="subtle">Tap a state to see primary metros served.</p>
+  <h1>Service Areas — Washington &amp; Oregon</h1>
+  <p>We cover commercial &amp; light industrial electrical engineering projects across Washington and Oregon, with a focus on permit-ready EV charging, solar PV, and transformer adequacy studies.</p>
+  <p><span class="badge">Seattle</span><span class="badge">Spokane</span><span class="badge">Tri-Cities</span><span class="badge">Bellingham</span><span class="badge">Tacoma</span><span class="badge">Vancouver</span><span class="badge">Portland</span><span class="badge">Salem</span><span class="badge">Eugene</span><span class="badge">Bend</span></p>
+  
+  <div class="service-map-card">
+    <div class="service-map-wrapper">
+      <div class="service-map-title">
+        <div>Interactive Service Area Map</div>
+        <span>Click a state to view local cities</span>
+      </div>
+      <svg class="service-map" viewBox="0 0 600 260" role="img" aria-labelledby="service-map-title">
+        <title id="service-map-title">Service areas for PNW Electrical Engineering in Washington and Oregon</title>
 
-    <div class="map-grid">
-      <button class="region-card active" data-region="wa" type="button">
-        <span class="region-label">Washington</span>
-        <span class="region-tag">Commercial &amp; light industrial</span>
-        <ul>
-          <li>Seattle / Tacoma</li>
-          <li>Spokane / Tri-Cities</li>
-          <li>Everett / Bellingham</li>
-        </ul>
-      </button>
+        <!-- Washington -->
+        <a xlink:href="areas/seattle.html">
+          <g class="state" transform="translate(40,40)">
+            <rect class="state-outline wa" width="240" height="130" rx="18" ry="18"></rect>
+            <text class="state-label" x="120" y="70" text-anchor="middle">Washington</text>
+          </g>
+        </a>
 
-      <button class="region-card" data-region="or" type="button">
-        <span class="region-label">Oregon</span>
-        <span class="region-tag">Commercial &amp; light industrial</span>
-        <ul>
-          <li>Portland Metro</li>
-          <li>Salem / Eugene</li>
-          <li>Bend / Medford</li>
-        </ul>
-      </button>
+        <!-- Oregon -->
+        <a xlink:href="areas/portland.html">
+          <g class="state" transform="translate(320,90)">
+            <rect class="state-outline or" width="200" height="110" rx="18" ry="18"></rect>
+            <text class="state-label" x="100" y="60" text-anchor="middle">Oregon</text>
+          </g>
+        </a>
+      </svg>
+
+      <div class="service-map-legend">
+        <div class="service-map-pill"><span class="wa-dot"></span>Washington commercial &amp; light industrial</div>
+        <div class="service-map-pill"><span class="or-dot"></span>Oregon commercial &amp; light industrial</div>
+      </div>
     </div>
+  </div>
 
-    <div class="region-details active" id="region-wa">
-      <h3>Washington Focus Areas</h3>
-      <p>Seattle, Tacoma, Bellevue, Redmond, Spokane, Tri-Cities, Everett, Bellingham, Yakima, Wenatchee, and most other Washington markets.</p>
-    </div>
-
-    <div class="region-details" id="region-or">
-      <h3>Oregon Focus Areas</h3>
-      <p>Portland Metro, Salem, Eugene, Bend, Medford, and other Oregon commercial and multifamily projects.</p>
-    </div>
-  </section>
 
 <section>
   <h2>Service Areas</h2>
@@ -183,11 +176,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><a href="areas/hoquiam.html">Hoquiam</a></li>
 </ul>
 </section>
+<section>
+  <h2>Oregon Service Areas</h2>
+  <p>We provide PE-stamped electrical engineering services throughout Oregon, including:</p>
+  <ul>
+    <li><a href="areas/portland.html">Portland Metro (Portland, Beaverton, Hillsboro, Gresham)</a></li>
+    <li><a href="areas/salem.html">Salem / Keizer / Mid-Willamette Valley</a></li>
+    <li><a href="areas/eugene.html">Eugene / Springfield</a></li>
+    <li><a href="areas/corvallis.html">Corvallis</a></li>
+    <li><a href="areas/albany.html">Albany</a></li>
+    <li><a href="areas/bend.html">Bend / Central Oregon</a></li>
+    <li><a href="areas/redmond-or.html">Redmond (Oregon)</a></li>
+    <li><a href="areas/medford.html">Medford / Rogue Valley</a></li>
+    <li><a href="areas/ashland.html">Ashland</a></li>
+    <li><a href="areas/grants-pass.html">Grants Pass</a></li>
+    <li><a href="areas/astoria.html">Astoria / North Coast</a></li>
+    <li><a href="areas/newport.html">Newport / Central Coast</a></li>
+    <li><a href="areas/coos-bay.html">Coos Bay / South Coast</a></li>
+  </ul>
+</section>
+
 
 </main>
 
 <footer class="footer"><div class="container" style="font-size:.95rem">
-  <div>PNW Electrical Engineering, PLLC — WA PE 55998</div>
+  <div>PNW Electrical Engineering, PLLC — WA PE 55998 • OR PE 108239PE</div>
   <div style="margin-top:6px;">
     <a href="tel:14437427054">443-742-7054</a> •
     <a href="mailto:casey-morris@live.com">casey-morris@live.com</a> •
@@ -208,38 +221,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="contact.html#quote-form">Get a Quote</a>
 </div>
 
-<script>
-  (function () {
-    const cards = document.querySelectorAll('.region-card');
-    const detailBlocks = {
-      wa: document.getElementById('region-wa'),
-      or: document.getElementById('region-or')
-    };
-
-    cards.forEach(card => {
-      card.addEventListener('click', () => {
-        const region = card.getAttribute('data-region');
-
-        cards.forEach(c => c.classList.remove('active'));
-        card.classList.add('active');
-
-        Object.keys(detailBlocks).forEach(key => {
-          if (detailBlocks[key]) {
-            detailBlocks[key].classList.toggle('active', key === region);
-          }
-        });
-      });
-    });
-  })();
-</script>
-<script>
-  (function () {
-    const header = document.querySelector('.header');
-    const toggle = document.querySelector('.nav-toggle');
-    if (!header || !toggle) return;
-    toggle.addEventListener('click', function () {
-      header.classList.toggle('nav-open');
-    });
-  })();
-</script>
 </body></html>
