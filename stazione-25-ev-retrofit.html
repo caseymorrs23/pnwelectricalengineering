@@ -23,8 +23,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <source type="image/webp" srcset="images/logo-stamp-w480.webp 480w, images/logo-stamp-w800.webp 800w, images/logo-stamp-w1024.webp 1024w" sizes="(max-width: 768px) 100vw, 800px">
   <img src="images/logo-stamp.png" alt="PNW Electrical Engineering PLLC logo" class="brand-logo" width="1024" height="1024" loading="lazy" decoding="async">
 </picture>
-      <strong>PNW Electrical Engineering, PLLC</strong><span> PE #55998 • OR PE #108239PE</span>
+      <strong>PNW Electrical Engineering, PLLC</strong><span> PE #55998</span>
     </div>
+<button class="nav-toggle" type="button" aria-label="Toggle navigation">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
     <nav class="nav">
       <a href="index.html" class="">Home</a>
       <a href="services.html" class="">Services</a>
@@ -47,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <p><strong>Client:</strong> Resound Energy<br>
 <strong>Location:</strong> Seattle, Washington<br>
 <strong>Project Type:</strong> EV Charging Retrofit<br>
-<strong>PE Stamp:</strong> WA PE 55998 • OR PE 108239PE • OR PE 108239PE</p>
+<strong>PE Stamp:</strong> WA PE 55998 • OR PE 108239PE</p>
 
 <h2>Project Overview</h2>
 <p>Stazione 25 needed a hybrid EV charging solution that reused existing branch circuits while adding new shared circuits. Several conduits were oversized or mismatched, requiring careful field verification.</p>
@@ -76,7 +81,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </main>
 
 <footer class="footer"><div class="container" style="font-size:.95rem">
-  <div>PNW Electrical Engineering, PLLC — WA PE 55998 • OR PE 108239PE</div>
+  <div>PNW Electrical Engineering, PLLC — WA PE 55998</div>
   <div style="margin-top:6px;">
     <a href="tel:14437427054">443-742-7054</a> •
     <a href="mailto:casey-morris@live.com">casey-morris@live.com</a> •
@@ -96,4 +101,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span>Need a stamped submittal?</span>
   <a href="contact.html#quote-form">Get a Quote</a>
 </div></footer>
+<script>
+  (function () {
+    const header = document.querySelector('.header');
+    const toggle = document.querySelector('.nav-toggle');
+    if (!header || !toggle) return;
+    toggle.addEventListener('click', function () {
+      header.classList.toggle('nav-open');
+    });
+  })();
+</script>
 </body></html>

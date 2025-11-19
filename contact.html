@@ -29,8 +29,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <source type="image/webp" srcset="images/logo-stamp-w480.webp 480w, images/logo-stamp-w800.webp 800w, images/logo-stamp-w1024.webp 1024w" sizes="(max-width: 768px) 100vw, 800px">
   <img src="images/logo-stamp.png" alt="PNW Electrical Engineering PLLC logo" class="brand-logo" width="1024" height="1024" loading="lazy" decoding="async">
 </picture>
-      <strong>PNW Electrical Engineering, PLLC</strong><span> PE #55998 • OR PE #108239PE</span>
+      <strong>PNW Electrical Engineering, PLLC</strong><span> PE #55998</span>
     </div>
+<button class="nav-toggle" type="button" aria-label="Toggle navigation">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
     <nav class="nav">
       <a href="index.html" class="">Home</a>
       <a href="services.html" class="">Services</a>
@@ -49,8 +54,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <main class="container">
   <h1 id="quote">Get a Free Quote</h1>
   <p class="small">Tell us about your project.</p>
-  <form id="quote-form" action="https://script.google.com/macros/s/AKfycbwB-wmT2y4DzhD2Jhe_Mth_DSoRtst2MJ9-7fxTICZ8H-liqCJRZUlThcxNFCBcjjq_Xw/exec" method="POST">
-    <input type="hidden" name="redirect" value="https://pnwengineer.com/thanks.html">
+  <form id="quote-form" action="https://formsubmit.co/Casey-Morris@live.com" method="POST">
+    <input type="hidden" name="_next" value="https://pnwengineer.com/thanks.html">
     <div class="row">
       <div><label>Name</label><input name="name" required><div class="form-help">So we know who to contact.</div></div>
       <div><label>Email</label><input name="email" type="email" required><div class="form-help">We’ll send confirmation here.</div></div>
@@ -59,13 +64,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <label>Project</label><textarea name="project" placeholder="Include site address/utility if known."></textarea>
     <div class="submit-row"><button class="btn btn-accent" type="submit">Request Quote</button></div>
-  
-
+  <input type="hidden" name="_subject" value="New Quote Request — PNW EE">
+<input type="hidden" name="_captcha" value="false">
 </form>
 </main>
 
 <footer class="footer"><div class="container" style="font-size:.95rem">
-  <div>PNW Electrical Engineering, PLLC — WA PE 55998 • OR PE 108239PE</div>
+  <div>PNW Electrical Engineering, PLLC — WA PE 55998</div>
   <div style="margin-top:6px;">
     <a href="tel:14437427054">443-742-7054</a> •
     <a href="mailto:casey-morris@live.com">casey-morris@live.com</a> •
@@ -86,4 +91,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="contact.html#quote-form">Get a Quote</a>
 </div>
 
+<script>
+  (function () {
+    const header = document.querySelector('.header');
+    const toggle = document.querySelector('.nav-toggle');
+    if (!header || !toggle) return;
+    toggle.addEventListener('click', function () {
+      header.classList.toggle('nav-open');
+    });
+  })();
+</script>
 </body></html>
