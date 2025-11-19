@@ -9,8 +9,13 @@
 </head><body>
 <header class="header"><div class="header-inner">
   <div class="brand"><img class="brand-logo" src="/images/logo-stamp.png" alt="PNW logo" style="height:28px;border-radius:6px">
-  <strong>PNW Electrical Engineering, PLLC</strong><span> PE #55998 • OR PE #108239PE</span></div>
-  <nav class="nav">
+  <strong>PNW Electrical Engineering, PLLC</strong><span> PE #55998</span></div>
+<button class="nav-toggle" type="button" aria-label="Toggle navigation">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+    <nav class="nav">
     <a href="/index.html">Home</a>
     <a href="/services.html">Services</a>
     <a href="/projects.html">Projects</a>
@@ -54,7 +59,7 @@
 </main>
 
 <footer class="footer"><div class="container" style="font-size:.95rem">
-  PNW Electrical Engineering, PLLC — WA PE 55998 • OR PE 108239PE • <a href="tel:14437427054">443-742-7054</a> • <a href="mailto:casey-morris@live.com">casey-morris@live.com</a>
+  PNW Electrical Engineering, PLLC — WA PE 55998 • <a href="tel:14437427054">443-742-7054</a> • <a href="mailto:casey-morris@live.com">casey-morris@live.com</a>
 </div></footer>
 
 <!-- Sticky Mobile CTA -->
@@ -69,4 +74,14 @@
   <a href="contact.html#quote-form">Get a Quote</a>
 </div>
 
+<script>
+  (function () {
+    const header = document.querySelector('.header');
+    const toggle = document.querySelector('.nav-toggle');
+    if (!header || !toggle) return;
+    toggle.addEventListener('click', function () {
+      header.classList.toggle('nav-open');
+    });
+  })();
+</script>
 </body></html>
