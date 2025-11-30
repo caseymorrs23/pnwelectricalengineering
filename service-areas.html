@@ -2,6 +2,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Service Areas | Washington PE Electrical Engineering</title>
 <link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -52,17 +53,80 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p><span class="badge">Seattle</span><span class="badge">Spokane</span><span class="badge">Tri-Cities</span><span class="badge">Bellingham</span><span class="badge">Tacoma</span><span class="badge">Vancouver</span><span class="badge">Portland</span><span class="badge">Salem</span><span class="badge">Eugene</span><span class="badge">Bend</span></p>
   
   <div class="service-map-card">
-    <div class="service-map-wrapper">
-      <div class="service-map-title">
-        <div>Service Area Map — Washington &amp; Oregon</div>
-        <span>Licensed PE coverage across WA &amp; OR</span>
-      </div>
-      <picture class="service-map">
-        <source type="image/webp" srcset="images/wa-or-service-map.webp">
-        <img src="images/wa-or-service-map.png" alt="Service area map highlighting Washington and Oregon" loading="lazy" decoding="async">
-      </picture>
+  <div class="service-map-wrapper">
+    <div class="service-map-title">
+      <div>Service Area Map — Washington &amp; Oregon</div>
+      <span>Licensed PE coverage across WA &amp; OR</span>
     </div>
+    <svg class="service-map" viewBox="0 0 600 360" role="img" aria-labelledby="service-map-title">
+      <title id="service-map-title">Service areas for PNW Electrical Engineering in Washington and Oregon</title>
+
+      <!-- Background -->
+      <defs>
+        <linearGradient id="map-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#0f172a" />
+          <stop offset="100%" stop-color="#1e293b" />
+        </linearGradient>
+      </defs>
+      <rect x="0" y="0" width="600" height="360" fill="url(#map-bg)" rx="24" ry="24" />
+
+      <!-- Washington -->
+      <g class="state">
+        <path class="state-outline wa" d="M70 70 L260 70 L280 110 L280 190 L70 190 Z" />
+        <text class="state-label" x="175" y="135" text-anchor="middle">WASHINGTON</text>
+      </g>
+
+      <!-- Oregon -->
+      <g class="state">
+        <path class="state-outline or" d="M90 210 L270 210 L300 260 L300 310 L90 310 Z" />
+        <text class="state-label" x="190" y="265" text-anchor="middle">OREGON</text>
+      </g>
+
+      <!-- Cities -->
+      <g class="cities" fill="#e5e7eb">
+        <!-- Washington cities -->
+        <g class="city">
+          <circle cx="190" cy="135" r="4" />
+          <text x="200" y="128" font-size="10">Seattle</text>
+        </g>
+        <g class="city">
+          <circle cx="230" cy="155" r="4" />
+          <text x="240" y="148" font-size="10">Tacoma</text>
+        </g>
+        <g class="city">
+          <circle cx="250" cy="120" r="4" />
+          <text x="260" y="113" font-size="10">Spokane</text>
+        </g>
+        <g class="city">
+          <circle cx="245" cy="140" r="4" />
+          <text x="255" y="133" font-size="10">Pullman</text>
+        </g>
+        <g class="city">
+          <circle cx="210" cy="165" r="4" />
+          <text x="220" y="158" font-size="10">Yakima</text>
+        </g>
+
+        <!-- Oregon cities -->
+        <g class="city">
+          <circle cx="205" cy="245" r="4" />
+          <text x="215" y="238" font-size="10">Portland</text>
+        </g>
+        <g class="city">
+          <circle cx="220" cy="270" r="4" />
+          <text x="230" y="263" font-size="10">Salem</text>
+        </g>
+        <g class="city">
+          <circle cx="230" cy="290" r="4" />
+          <text x="240" y="283" font-size="10">Eugene</text>
+        </g>
+        <g class="city">
+          <circle cx="255" cy="280" r="4" />
+          <text x="265" y="273" font-size="10">Bend</text>
+        </g>
+      </g>
+    </svg>
   </div>
+</div>
 
       <div class="service-map-legend">
         <div class="service-map-pill"><span class="wa-dot"></span>Washington commercial &amp; light industrial</div>
