@@ -13,8 +13,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <meta name="description" content="PE electrical engineering across Washington: Tri-Cities, Spokane, Pullman, Seattle/Tacoma, and more.">
-<link rel="canonical" href="https://caseymorrs23.github.io/pnwelectricalengineering/service-areas.html">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["LocalBusiness", "ProfessionalService"], "name": "PNW Electrical Engineering, PLLC", "description": "Washington PE electrical engineering for commercial & light industrial. EV charging load calcs, transformer adequacy, solar + storage, and PE-stamped submittals.", "telephone": "+1-443-742-7054", "email": "Casey-Morris@live.com", "url": "https://caseymorrs23.github.io/pnwelectricalengineering/", "image": "https://caseymorrs23.github.io/pnwelectricalengineering/assets/logo.png", "address": {"@type": "PostalAddress", "streetAddress": "10102 199th Ave E", "addressLocality": "Bonney Lake", "addressRegion": "WA", "postalCode": "98391", "addressCountry": "US"}, "areaServed": {"@type": "AdministrativeArea", "name": "Washington"}, "founder": "Casey Morris, P.E.", "knowsAbout": ["EV charging engineering", "transformer adequacy", "solar interconnection", "one-line diagrams", "load calculations"], "identifier": [{"@type": "PropertyValue", "name": "WA PE License", "value": "55998"}], "sameAs": ["https://g.page/r/CeMPL1WLtVF0EBM/review"]}</script>
+<link rel="canonical" href="https://pnwengineer.com/service-areas.html">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["LocalBusiness", "ProfessionalService"], "name": "PNW Electrical Engineering, PLLC", "description": "Washington PE electrical engineering for commercial & light industrial. EV charging load calcs, transformer adequacy, solar + storage, and PE-stamped submittals.", "telephone": "+1-443-742-7054", "email": "Casey-Morris@live.com", "url": "https://pnwengineer.com/", "image": "https://pnwengineer.com/assets/logo.png", "address": {"@type": "PostalAddress", "streetAddress": "10102 199th Ave E", "addressLocality": "Bonney Lake", "addressRegion": "WA", "postalCode": "98391", "addressCountry": "US"}, "areaServed": {"@type": "AdministrativeArea", "name": "Washington"}, "founder": "Casey Morris, P.E.", "knowsAbout": ["EV charging engineering", "transformer adequacy", "solar interconnection", "one-line diagrams", "load calculations"], "identifier": [{"@type": "PropertyValue", "name": "WA PE License", "value": "55998"}], "sameAs": ["https://g.page/r/CeMPL1WLtVF0EBM/review"]}</script>
 </head><body>
 
 <!-- Google Tag Manager (noscript) -->
@@ -58,71 +58,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div>Service Area Map — Washington &amp; Oregon</div>
       <span>Licensed PE coverage across WA &amp; OR</span>
     </div>
-    <svg class="service-map" viewBox="0 0 600 360" role="img" aria-labelledby="service-map-title">
-      <title id="service-map-title">Service areas for PNW Electrical Engineering in Washington and Oregon</title>
+    <svg class="service-map" viewBox="0 0 640 320" role="img" aria-labelledby="service-map-title">
+      <title id="service-map-title">Blueprint-style map of PNW Electrical Engineering service areas in Washington and Oregon</title>
 
-      <!-- Background -->
+      <!-- Blueprint grid background -->
       <defs>
-        <linearGradient id="map-bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="#0f172a" />
-          <stop offset="100%" stop-color="#1e293b" />
-        </linearGradient>
+        <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+          <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#1f2937" stroke-width="0.5"/>
+        </pattern>
       </defs>
-      <rect x="0" y="0" width="600" height="360" fill="url(#map-bg)" rx="24" ry="24" />
+      <rect x="0" y="0" width="640" height="320" fill="#020617"/>
+      <rect x="0" y="0" width="640" height="320" fill="url(#grid)" opacity="0.65"/>
 
-      <!-- Washington -->
-      <g class="state">
-        <path class="state-outline wa" d="M70 70 L260 70 L280 110 L280 190 L70 190 Z" />
-        <text class="state-label" x="175" y="135" text-anchor="middle">WASHINGTON</text>
+      <!-- Washington outline -->
+      <g class="state" transform="translate(80,60)">
+        <path class="state-outline wa" d="
+          M 0 40
+          L 40 0
+          L 200 0
+          L 240 30
+          L 230 90
+          L 220 130
+          L 40 130
+          L 10 110
+          Z
+        " fill="none" stroke="#38bdf8" stroke-width="2"></path>
+        <text class="state-label" x="120" y="78" text-anchor="middle">WASHINGTON</text>
+
+        <!-- WA cities -->
+        <g fill="#38bdf8">
+          <circle cx="150" cy="50" r="4"></circle>
+          <text x="160" y="48" font-size="10">Seattle</text>
+
+          <circle cx="140" cy="80" r="4"></circle>
+          <text x="150" y="78" font-size="10">Tacoma</text>
+
+          <circle cx="210" cy="70" r="4"></circle>
+          <text x="220" y="68" font-size="10">Spokane</text>
+
+          <circle cx="205" cy="95" r="4"></circle>
+          <text x="215" y="93" font-size="10">Pullman</text>
+
+          <circle cx="175" cy="95" r="4"></circle>
+          <text x="185" y="93" font-size="10">Yakima</text>
+        </g>
       </g>
 
-      <!-- Oregon -->
-      <g class="state">
-        <path class="state-outline or" d="M90 210 L270 210 L300 260 L300 310 L90 310 Z" />
-        <text class="state-label" x="190" y="265" text-anchor="middle">OREGON</text>
+      <!-- Oregon outline -->
+      <g class="state" transform="translate(120,170)">
+        <path class="state-outline or" d="
+          M 40 0
+          L 210 0
+          L 230 30
+          L 225 80
+          L 215 120
+          L 50 120
+          L 30 100
+          L 20 60
+          Z
+        " fill="none" stroke="#4ade80" stroke-width="2"></path>
+        <text class="state-label" x="135" y="68" text-anchor="middle">OREGON</text>
+
+        <!-- OR cities -->
+        <g fill="#4ade80">
+          <circle cx="110" cy="40" r="4"></circle>
+          <text x="120" y="38" font-size="10">Portland</text>
+
+          <circle cx="135" cy="60" r="4"></circle>
+          <text x="145" y="58" font-size="10">Salem</text>
+
+          <circle cx="165" cy="80" r="4"></circle>
+          <text x="175" y="78" font-size="10">Eugene</text>
+
+          <circle cx="195" cy="95" r="4"></circle>
+          <text x="205" y="93" font-size="10">Bend</text>
+        </g>
       </g>
 
-      <!-- Cities -->
-      <g class="cities" fill="#e5e7eb">
-        <!-- Washington cities -->
-        <g class="city">
-          <circle cx="190" cy="135" r="4" />
-          <text x="200" y="128" font-size="10">Seattle</text>
-        </g>
-        <g class="city">
-          <circle cx="230" cy="155" r="4" />
-          <text x="240" y="148" font-size="10">Tacoma</text>
-        </g>
-        <g class="city">
-          <circle cx="250" cy="120" r="4" />
-          <text x="260" y="113" font-size="10">Spokane</text>
-        </g>
-        <g class="city">
-          <circle cx="245" cy="140" r="4" />
-          <text x="255" y="133" font-size="10">Pullman</text>
-        </g>
-        <g class="city">
-          <circle cx="210" cy="165" r="4" />
-          <text x="220" y="158" font-size="10">Yakima</text>
-        </g>
-
-        <!-- Oregon cities -->
-        <g class="city">
-          <circle cx="205" cy="245" r="4" />
-          <text x="215" y="238" font-size="10">Portland</text>
-        </g>
-        <g class="city">
-          <circle cx="220" cy="270" r="4" />
-          <text x="230" y="263" font-size="10">Salem</text>
-        </g>
-        <g class="city">
-          <circle cx="230" cy="290" r="4" />
-          <text x="240" y="283" font-size="10">Eugene</text>
-        </g>
-        <g class="city">
-          <circle cx="255" cy="280" r="4" />
-          <text x="265" y="273" font-size="10">Bend</text>
-        </g>
+      <!-- Legend -->
+      <g class="service-map-legend" transform="translate(420,36)">
+        <rect x="0" y="0" width="190" height="90" rx="12" ry="12" fill="rgba(15,23,42,0.9)" stroke="#1f2937" stroke-width="1"/>
+        <circle cx="18" cy="26" r="5" fill="#38bdf8"></circle>
+        <text x="32" y="30" font-size="11" fill="#e5e7eb">Primary WA metro areas</text>
+        <circle cx="18" cy="54" r="5" fill="#4ade80"></circle>
+        <text x="32" y="58" font-size="11" fill="#e5e7eb">Primary OR metro areas</text>
       </g>
     </svg>
   </div>
