@@ -255,3 +255,32 @@ header .logo img {
   height: 360px;
   border: 0;
 }
+
+/* ===== FIX: Mobile nav above hero ===== */
+
+.header{
+  position: relative;
+  z-index: 3000;
+}
+
+.header .header-inner{
+  position: relative;
+  z-index: 3001;
+}
+
+.nav-toggle{
+  position: relative;
+  z-index: 3003;
+}
+
+@media (max-width: 860px){
+  .header .nav{
+    z-index: 3002;
+    box-shadow: 0 14px 24px rgba(15,23,42,.28);
+  }
+}
+
+/* Keep hero below everything */
+.hero{
+  z-index: 1;
+}
