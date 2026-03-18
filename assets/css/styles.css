@@ -463,3 +463,10 @@ header .logo img {
     padding:10px 12px 12px;
   }
 }
+
+/* FORCE REMOVE HERO CTA ON MOBILE */
+@media (max-width:640px){
+  .hero .cta-group{
+    display:none !important;
+  }
+}
