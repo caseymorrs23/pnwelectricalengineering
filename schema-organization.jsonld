@@ -14,5 +14,35 @@
     }
   ],
   "founder": "Casey Morris, P.E.",
-  "identifier": "WA PE #55998"
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "name": "WA PE License",
+      "value": "55998"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OR PE License",
+      "value": "108239PE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ID PE License",
+      "value": "4281401"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Washington"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Oregon"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Idaho"
+    }
+  ]
 }
