@@ -377,12 +377,89 @@ header .logo img {
 }
 
 @media (max-width:640px){
+  .hero{
+    border-radius:12px;
+    margin:12px auto 16px;
+  }
+
+  .hero-media{
+    min-height:420px;
+    border-radius:12px;
+  }
+
+  .hero-media picture,
+  .hero-media img{
+    height:420px;
+  }
+
+  .hero-content{
+    padding:20px 16px 28px;
+    justify-content:flex-start;
+    padding-top:34px;
+  }
+
+  .hero h1{
+    font-size:1.6rem;
+    line-height:1.15;
+    margin-bottom:10px;
+  }
+
+  .hero .lead{
+    font-size:1rem;
+    line-height:1.35;
+    margin-bottom:12px;
+  }
+
   .hero-trust{
-    font-size:.88rem;
-    line-height:1.4;
+    font-size:.85rem;
+    line-height:1.35;
+    max-width:320px;
+    margin:0 auto 14px;
+  }
+
+  .cta-group{
+    width:100%;
+    max-width:280px;
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .cta-group .btn{
+    width:100%;
+    text-align:center;
+    padding:.75rem .9rem;
   }
 
   .hero-bullets{
     display:none;
+  }
+}
+@media (max-width:640px){
+  .header .header-inner{
+    padding:8px 12px;
+  }
+
+  .brand{
+    gap:8px;
+    min-width:0;
+  }
+
+  .brand strong{
+    font-size:.9rem;
+    line-height:1.15;
+  }
+
+  .brand span{
+    font-size:.8rem;
+    line-height:1.15;
+  }
+
+  .nav-toggle{
+    margin-left:8px;
+  }
+
+  .header .nav{
+    top:64px;
+    padding:10px 12px 12px;
   }
 }
