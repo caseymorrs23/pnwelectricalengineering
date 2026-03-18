@@ -529,4 +529,28 @@ header .logo img{
   }
 }
 
+.page-contact button[type="submit"],
+.page-contact input[type="submit"]{
+  padding: .9rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  min-width: 170px;
+  box-shadow: 0 8px 20px rgba(34,197,94,.18);
+}
 
+@media (max-width:640px){
+  .page-contact .sticky-cta{
+    display:none !important;
+  }
+
+  body.page-contact{
+    padding-bottom:0 !important;
+  }
+
+  .page-contact button[type="submit"],
+  .page-contact input[type="submit"]{
+    width:100%;
+    max-width:220px;
+  }
+}
