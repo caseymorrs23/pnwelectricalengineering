@@ -21,5 +21,19 @@
     </ul>
     <p><a href="../contact.html#quote-form">Request a Quote</a></p>
   </main>
+
+<script>
+  (function () {
+    var navToggle = document.querySelector('.nav-toggle');
+    var nav = document.querySelector('.nav');
+    if (!navToggle || !nav) return;
+    navToggle.addEventListener('click', function () {
+      var isOpen = nav.classList.toggle('nav-open');
+      navToggle.classList.toggle('nav-open', isOpen);
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  })();
+</script>
+
 </body>
 </html>
